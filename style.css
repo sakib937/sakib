@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.common-btn{
+    background-color: rgb(39, 39, 242);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 6px;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+
+
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+}
+.hero-section{
+ background-image:url(./assets/banner.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+}
+.hero-sec-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 20px;
+
+
+}
+    .hero-sec-para{
+        color: white;
+        line-height: 1.6;
+        width: 700px;
+        text-align: center;
+
+
+    }
+    .joind{
+        margin-bottom: 200px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .hero-btn{
+        margin-top: 400px;
+
+    }
+    .speaker-sec{
+        margin: 50px auto;
+        width: 90%;
+    }
+    .speaker-heading{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.speaker-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 6px;
+    /* padding: 10px; */
+}
+   .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 14px;
+    gap: 6px
+    ;
+   }
+   .pricing-parent{
+    margin: auto;
+    max-width: 1350px;
+   }
+
+   .pricing-head{
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom:30px;
+   }
+.pricing-cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.p-card{
+    border: 1px solid gray;
+    padding: 80px 60px;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    text-align: left;
+}
+       .p-card h1{
+        margin-top: 10px ;
+        font-size: 50px;
+        font-weight: bold;
+       }
+    .p-card ul{
+        margin-top: 60px;
+    }
+    .p-card ul li{
+        margin-bottom: 14px;
+    }
+    .pricing-head h1{
+        margin-bottom: 20px;
+        font-weight: bold;
+        
+    }
+    .btn-1{
+        color: blue;
+        border: 1px solid blue;
+        padding: 5px 120px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .btn-3{color: black;
+        border: 1px solid black;
+        padding: 5px 120px;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+    }
+    .btn-2{
+        
+         color: white;
+        border: 1px solid blue;
+        padding: 15px 125px;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: blue;
+    }
+    .p-card-new{
+        background-color: black;
+        border-radius: 10px;
+
+    }
+    .p-card-new h1{
+        color: white
+    }
+    .p-card-new p{
+        color: wheat;
+
+       
+    
+    }
+    .p-card-new ul{
+        color: white;
+    }
+    #pro-id{
+        color: skyblue;
+    }
+    .faq-parent{
+        max-width: 1350px;
+        margin: 80px auto;
+    }
+    .faq-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .faq-qstain{
+        width: 48%;
+        margin-bottom: 30px;
+        background-color: aliceblue;
+    }
+    .faq-head{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-parent{
+        display: flex;
+        justify-content: space-between;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+    }
+    .footer-logo{
+        margin-bottom: 70px;
+        margin-top: 20px;
+        
+    }
+    
